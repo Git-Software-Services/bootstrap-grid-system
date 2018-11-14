@@ -1,0 +1,10 @@
+.logo {
+    width: 40%;
+    margin-top: -2em;
+    margin-bottom: -2em;
+    z-index: 1000;
+}
+
+.bg-color {
+    background: #e6e6e6;
+}
