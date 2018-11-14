@@ -37,3 +37,38 @@ h2 {
 h3 {
     font-size: 2.4em;
 }
+.bg-red-circle {
+    background: #e6563b;
+}
+.bg-orange-circle {
+    background: #eb9d3a;
+}
+.bg-green-circle {
+    background: #7cb06c;
+}
+.bg-blue-circle {
+    background: #00aba9;
+}
+
+.circle {
+    text-align: center;
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    border: .5em solid #fff;
+
+}
+
+span {
+    margin-top: -100px;
+}
+
+.broken {
+    border-radius: 150px;
+    background: crimson;
+}
+
+img {
+    width: 80%;
+    background: #f0f0f0;
+}
