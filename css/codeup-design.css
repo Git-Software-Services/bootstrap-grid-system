@@ -2,9 +2,38 @@
     width: 40%;
     margin-top: -2em;
     margin-bottom: -2em;
-    z-index: 1000;
 }
 
 .bg-color {
     background: #e6e6e6;
+}
+
+.nav-structure  {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.2em;
+
+
+}
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+.abel   {
+    font-family: 'Abel', sans-serif;
+}
+
+.anton  {
+    font-family: 'Anton', sans-serif;
+}
+
+h3 {
+    font-size: 2.4em;
 }
