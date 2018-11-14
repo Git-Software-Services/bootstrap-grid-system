@@ -76,3 +76,21 @@ span {
 .words  {
     padding-top: 51px;
 }
+.sm-cirlce {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    /*border: .5em solid #fff;*/
+}
+
+.sm-cirlce p {
+    font-size: 1.5em;
+    padding-top: 2px;
+}
+.feature {
+    padding-right: 3em;
+}
+.xsm-row {
+    margin-top: 15px;
+    padding-bottom: 100px;
+}
