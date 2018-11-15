@@ -41,7 +41,7 @@
         </nav>
 
         <!--<<<<<<<<<<<<NAV FOR SMALL LAYOUT>>>>>>>>>>>-->
-        <nav class=" small-nav navbar-light bg-white ">
+        <nav class=" small-nav navbar-light bg-white d-sm-block d-md-none d-none">
             <ul class="nav-structure abel d-inline-block">
                 <li class="nav-item">
                     <a class="px-1 text-dark" href="#">SERVICES</a>
@@ -50,7 +50,7 @@
                     <a class="px-1 text-dark" href="#">WORK</a>
                 </li>
             </ul>
-                <img class="d-inline-block" src="images/logo.png" style="width:20%">
+                <img class="d-inline-block" src="images/logo.png" style="max-width:20%;">
             <ul class="nav-structure abel d-inline-block">
                 <li class="nav-item">
                     <a class="px-1 text-dark " href="#">BLOG</a>
@@ -61,9 +61,17 @@
             </ul>
         </nav>
 
-        <div>
-            <h1 class="anton"> VISUAL DESIGN & <br>WEB DEVELOPMENT</h1>
+        <!--<<<<<<<<<<<<CODEUP DESIGN FOR SMALL LAYOUT>>>>>>>>>>>-->
+        <div class="small-codeup-design pb-5 d-sm-block d-none d-md-none">
+            <h3 class="abel">codeup design</h3>
         </div>
+
+
+        <div>
+            <h1 class="anton"> VISUAL DESIGN & <span>WEB DEVELOPMENT</span></h1>
+        </div>
+
+
         <div>
             <h3 class="anton py-5">FROM PARK CITY, UTAH</h3>
         </div>
@@ -81,34 +89,208 @@
                 </div>
             </div>
         </div>
-        <div class="row pb-5">
-            <div class="col-12">
 
-            </div>
-        </div>
+
+        <!--<<<<<<<<<<<<PADDING FOR XS LAYOUT>>>>>>>>>>>-->
+        <div class="d-block d-sm-none pb-5"></div>
+
+        <hr width="80%" class="d-none d-sm-block">
+
         <div class="py-5">
             <h4 class="abel">SELECTED WORK</h4>
         </div>
+
+
+
         <div>
             <img class="ipad img-thumbnail mx-auto p-3" src="images/apple-ipad.jpg">
         </div>
-        <div class="row xsm-row mx-auto">
-            <div class="col-12 ">
-                <h4 class="abel d-inline-block feature ">FEATURED PROJECT</h4>
-                <div class="sm-cirlce red-circle d-inline-block">
-                    <p class="anton">D</p>
-                </div>
-                <div class="sm-cirlce orange-circle d-inline-block">
-                    <p class="anton">D</p>
-                </div>
-                <div class="sm-cirlce green-circle d-inline-block">
-                    <p class="anton">S</p>
-                </div>
-                <div class="sm-cirlce blue-circle d-inline-block">
-                    <p class="anton">H</p>
-                </div>
+        <div class="xsm-row mx-auto">
+            <h4 class="abel d-inline-block feature ">FEATURED PROJECT</h4>
+            <div class="sm-cirlce red-circle d-inline-block">
+                <p class="anton">D</p>
+            </div>
+            <div class="sm-cirlce orange-circle d-inline-block">
+                <p class="anton">D</p>
+            </div>
+            <div class="sm-cirlce green-circle d-inline-block">
+                <p class="anton">S</p>
+            </div>
+            <div class="sm-cirlce blue-circle d-inline-block">
+                <p class="anton">H</p>
             </div>
         </div>
+
+
+
+        <!--GRID LAYOUT FOR IMAGES-->
+        <div class="container">
+            <div class="row text-center">
+
+
+                <!-- column -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div>
+                        <img class="ipad img-thumbnail mx-auto p-3" src="images/apple-ipad.jpg">
+                    </div>
+                    <div class="row">
+                        <div class="xsm-row mx-auto">
+                            <h4 class="abel d-inline-block feature ">FEATURED PROJECT</h4>
+                            <div class="sm-cirlce red-circle d-inline-block">
+                                <p class="anton">D</p>
+                            </div>
+                            <div class="sm-cirlce orange-circle d-inline-block">
+                                <p class="anton">D</p>
+                            </div>
+                            <div class="sm-cirlce green-circle d-inline-block">
+                                <p class="anton">S</p>
+                            </div>
+                            <div class="sm-cirlce blue-circle d-inline-block">
+                                <p class="anton">H</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- column -->
+                <div class="col-sm-6 d-none d-sm-block col-md-4">
+                    <div>
+                        <img class="ipad img-thumbnail mx-auto p-3" src="images/macbook.jpg">
+                    </div>
+                    <div class="xsm-row mx-auto">
+                        <h4 class="abel d-inline-block feature ">FEATURED PROJECT</h4>
+                        <div class="sm-cirlce red-circle d-inline-block">
+                            <p class="anton">D</p>
+                        </div>
+                        <div class="sm-cirlce orange-circle d-inline-block">
+                            <p class="anton">D</p>
+                        </div>
+                        <div class="sm-cirlce green-circle d-inline-block">
+                            <p class="anton">S</p>
+                        </div>
+                        <div class="sm-cirlce blue-circle d-inline-block">
+                            <p class="anton">H</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Right Side Bar -->
+                <div class="col-sm-6 d-none d-sm-none d-md-block col-md-4">
+
+                    <!-- IMAGE -->
+                    <div>
+                        <img class="tiny-img" src="images/mobile-phone.jpg">
+                    </div>
+
+
+                    <!-- TEXT -->
+                    <div class="col-sm-6 d-none d-sm-block col-md-4">
+                        <h2 class="selected-work">DEVELOP</h2>
+                    </div>
+
+
+                    <!-- IMAGE -->
+                    <div>
+                        <img class="tiny-img" src="images/head.jpg">
+                    </div>
+
+
+                    <!-- TEXT -->
+                    <div class="col-sm-6 d-none d-sm-block col-md-4">
+                        <h2 class="selected-work">SUPPORT</h2>
+                    </div>
+
+
+                    <!-- IMAGE -->
+                    <div>
+                        <img class="tiny-img" src="images/ipad.jpg">
+                    </div>
+
+                    <!-- TEXT -->
+                    <div class="col-sm-6 d-none d-sm-none d-md-block col-md-4">
+                        <h2 class="selected-work">TWITTER</h2>
+                    </div>
+
+
+                </div>
+
+
+                <!-- column -->
+                <div class="col-sm-6 d-none d-sm-block col-md-4">
+                    <div>
+                        <img class="ipad img-thumbnail mx-auto p-3" src="images/man.jpg">
+                    </div>
+                    <div class="xsm-row mx-auto">
+                        <h4 class="abel d-inline-block feature ">FEATURED PROJECT</h4>
+                        <div class="sm-cirlce red-circle d-inline-block">
+                            <p class="anton">D</p>
+                        </div>
+                        <div class="sm-cirlce orange-circle d-inline-block">
+                            <p class="anton">D</p>
+                        </div>
+                        <div class="sm-cirlce green-circle d-inline-block">
+                            <p class="anton">S</p>
+                        </div>
+                        <div class="sm-cirlce blue-circle d-inline-block">
+                            <p class="anton">H</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- column -->
+                <div class="col-sm-6 d-none d-sm-block col-md-4">
+                    <div>
+                        <img class="ipad img-thumbnail mx-auto p-3" src="images/security.jpg">
+                    </div>
+                    <div class="xsm-row mx-auto">
+                        <h4 class="abel d-inline-block feature ">FEATURED PROJECT</h4>
+                        <div class="sm-cirlce red-circle d-inline-block">
+                            <p class="anton">D</p>
+                        </div>
+                        <div class="sm-cirlce orange-circle d-inline-block">
+                            <p class="anton">D</p>
+                        </div>
+                        <div class="sm-cirlce green-circle d-inline-block">
+                            <p class="anton">S</p>
+                        </div>
+                        <div class="sm-cirlce blue-circle d-inline-block">
+                            <p class="anton">H</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TWITTER -->
+                <div class="col-sm-6 d-none d-sm-none d-md-block col-md-4">
+                    <div>
+                        <img class="ipad img-thumbnail mx-auto p-3" src="images/apple-ipad.jpg">
+                    </div>
+                    <div class="xsm-row mx-auto">
+                        <h4 class="abel d-inline-block feature ">TWITTER</h4>
+                        <div class="sm-cirlce red-circle d-inline-block">
+                            <p class="anton">D</p>
+                        </div>
+                        <div class="sm-cirlce orange-circle d-inline-block">
+                            <p class="anton">D</p>
+                        </div>
+                        <div class="sm-cirlce green-circle d-inline-block">
+                            <p class="anton">S</p>
+                        </div>
+                        <div class="sm-cirlce blue-circle d-inline-block">
+                            <p class="anton">H</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
     </div>
 
 
