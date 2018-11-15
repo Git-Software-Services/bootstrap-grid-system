@@ -97,8 +97,9 @@ span {
 
 .sm-cirlce p {
     /*font-size: 1.5em;*/
-    padding-top: 2px;
-    font-size: 3vw;
+    /*padding-top: 2px;*/
+    line-height: 1.5em;
+    font-size: 2.7vw;
 }
 .feature {
     padding-right: 3em;
@@ -111,6 +112,7 @@ span {
 .small-nav > img  {
     margin-top: -2em;
     margin-bottom: -2em;
+    max-width: 20%;
 }
 .tiny-img {
     width: 50px;
@@ -131,6 +133,14 @@ span {
     /*background: white;*/
 }
 .mini-feature {
-    font-size: 1.5vw;
+            font-size: 1.5vw;
+        }
+.md-image {
+    width:10em;
+    margin-top: -3.5em;
+    margin-bottom: -3.5em;
+}
 
+#unaligntext {
+    text-align: initial;
 }
