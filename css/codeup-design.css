@@ -35,9 +35,10 @@ h2 {
 }
 .anton-flex {
     font-family: 'Anton', sans-serif;
-    font-size: 1vw;
+    font-size:  1vw;
     /*margin: 0 auto;*/
-    margin: 0;
+    /*for medium and large*/
+    margin: -13.5px;
     /*line-height: 1em;*/
 
 }
@@ -100,8 +101,8 @@ span {
     font-size: 3vw;
 }
 .feature {
-    /*padding-right: 3em;*/
-    font-size: 1.5vw;
+    padding-right: 3em;
+    font-size: 3.5vw;
 }
 .xsm-row {
     margin-top: 15px;
@@ -128,4 +129,8 @@ span {
     width: 100%;
     padding-bottom: 100%;
     /*background: white;*/
+}
+.mini-feature {
+    font-size: 1.5vw;
+
 }
