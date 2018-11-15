@@ -115,7 +115,9 @@ span {
     max-width: 20%;
 }
 .tiny-img {
-    width: 50px;
+    width: 160%;
+    height:auto;
+    padding-right: 10px;
 }
 
 
@@ -136,11 +138,22 @@ span {
             font-size: 1.5vw;
         }
 .md-image {
-    width:10em;
-    margin-top: -3.5em;
-    margin-bottom: -3.5em;
+    width: 7em;
+    margin-top: -6.5em;
+    margin-bottom: -4.5em;
 }
 
 #unaligntext {
     text-align: initial;
+}
+
+.nav {
+    /*height: 20%;*/
+}
+.white-nav-space {
+    height: 65px;
+
+}
+.med-feature {
+    font-size: 1.3vw;
 }

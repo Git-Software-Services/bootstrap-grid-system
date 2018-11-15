@@ -62,9 +62,9 @@
         </nav>
 
         <!--<<<<<<<<<<<<NAV FOR MED+ LAYOUT>>>>>>>>>>>-->
-        <nav id="unaligntext" class="navbar bg-white d-none d-md-block">
+        <nav id="unaligntext" class="white-nav-space navbar bg-white d-none d-md-block">
             <img class="md-image d-inline-block" src="images/logo.png">
-            <a class="navbar-brand abel text-dark" href="#"><h3 class="mb-0">codeup design</h3></a>
+            <a class="navbar-brand abel text-dark d-inline-block" href="#"><h3 class="mb-0">codeup design</h3></a>
             <!--Navbar Links-->
             <ul class="d-inline-block justify-content-end">
                 <li class="nav-item">
@@ -117,16 +117,22 @@
 
         <hr width="80%" class="d-none d-sm-block">
 
-        <div class="py-5">
+        <div class=" d-md-none d-lg-none d-xl-none">
             <h4 class="abel">SELECTED WORK</h4>
         </div>
+        <!--<<<<<<<<<<<<<<SELECTED WORK FOR MD + ><>>>>>>>>>>>>>>>>>>-->
+        <div class="container py-5 d-none d-sm-block">
+            <div class="row">
+                <div class="col-md-4 d-none d-md-block"><h4 class="abel mini-feature text-left">SELECTED WORK</h4></div>
+                <div class="col-md-4 offset-md-4 d-none d-md-block"><h4 class="abel mini-feature text-left">THE LAST</h4></div>
+            </div>
+        </div>
 
 
-
-        <div>
+        <div class="d-block d-sm-none">
             <img class="ipad img-thumbnail mx-auto p-3" src="images/apple-ipad.jpg">
         </div>
-        <div class="xsm-row mx-auto">
+        <div class="xsm-row mx-auto d-block d-sm-none">
             <h4 class="abel d-inline-block feature ">FEATURED PROJECT</h4>
             <div class="sm-cirlce red-circle d-inline-block">
                 <p class="anton">D</p>
@@ -150,13 +156,14 @@
 
 
                 <!-- column -->
-                <div class="col-12 col-sm-6 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4 d-none d-sm-block">
                     <div>
                         <img class="ipad img-thumbnail mx-auto " src="images/apple-ipad.jpg">
                     </div>
                     <div class="row ">
                             <div class="col-sm-6">
                                 <h4 class="abel  mini-feature ">FEATURED PROJECT</h4>
+                                <h4 class="abel  med-feature d-md-none d-lg-block ">FEATURED PROJECT</h4>
                             </div>
                             <div class="col-sm-6">
                                 <div class="circ-div d-inline-block">
@@ -166,13 +173,10 @@
                                 </div>
                                 <div class="circ-div d-inline-block ">
                                     <div class=" circ  orange-circle ">
-                                        <<<<<<< HEAD
                                         <p class="anton-flex">D</p>
-                                        =======
-                                        <p class="anton">D</p>
-                                        >>>>>>> 968bf934b2308935f9a2202a8eac6370fa2232d3
                                     </div>
-
+                                </div>
+                                <div class="circ-div d-inline-block ">
                                     <div class=" circ  green-circle ">
                                         <p class="anton-flex">D</p>
                                     </div>
@@ -193,61 +197,78 @@
                     <div>
                         <img class="ipad img-thumbnail mx-auto" src="images/macbook.jpg">
                     </div>
-                    <div class="xsm-row mx-auto">
-                        <h4 class="abel d-inline-block feature ">FEATURED PROJECT</h4>
-                        <div class="sm-cirlce red-circle d-inline-block">
-                            <p class="anton">D</p>
+                    <div class="row ">
+                        <div class="col-sm-6">
+                            <h4 class="abel  mini-feature ">FEATURED PROJECT</h4>
                         </div>
-                        <div class="sm-cirlce orange-circle d-inline-block">
-                            <p class="anton">D</p>
+                        <div class="col-sm-6">
+                            <div class="circ-div d-inline-block">
+                                <div class=" circ  red-circle ">
+                                    <p class="anton-flex">D</p>
+                                </div>
+                            </div>
+                            <div class="circ-div d-inline-block ">
+                                <div class=" circ  orange-circle ">
+                                    <p class="anton-flex">D</p>
+                                </div>
+                            </div>
+                            <div class="circ-div d-inline-block ">
+                                <div class=" circ  green-circle ">
+                                    <p class="anton-flex">D</p>
+                                </div>
+                            </div>
+                            <div class="circ-div d-inline-block ">
+                                <div class=" circ  blue-circle ">
+                                    <p class="anton-flex">D</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="sm-cirlce green-circle d-inline-block">
-                            <p class="anton">S</p>
-                        </div>
-                        <div class="sm-cirlce blue-circle d-inline-block">
-                            <p class="anton">H</p>
-                        </div>
+
                     </div>
                 </div>
 
 
                 <!-- Right Side Bar -->
                 <div class="col-sm-6 d-none d-sm-none d-md-block col-md-4">
+                    <div class="row">
+                        <div class="row">
+                            <!-- IMAGE -->
+                            <div class="col-md-3">
+                                <img class="tiny-img d-inline-block" src="images/mobile-phone.jpg">
+                            </div>
 
-                    <!-- IMAGE -->
-                    <div>
-                        <img class="tiny-img" src="images/mobile-phone.jpg">
+
+                            <!-- TEXT -->
+                            <div class="col-md-9">
+                                <p class="anton selected-work" id="unaligntext">THE ADMIN BAR AND ABSOLUTE POSITIONING</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!-- IMAGE -->
+                            <div class="col-md-3">
+                                <img class="tiny-img" src="images/head.jpg">
+                            </div>
+
+
+                            <!-- TEXT -->
+                            <div class="col-md-9">
+                                <p class="anton selected-work" id="unaligntext">NIBBLER AWESOME WEBSITE TESTING</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!-- IMAGE -->
+                            <div class="col-md-3">
+                                <img class="tiny-img" src="images/ipad.jpg">
+                            </div>
+
+                            <!-- TEXT -->
+                            <div class="col-md-9">
+                                <p class="selected-work anton" id="unaligntext">HOW TO GET GOOGLE TO LIKE YOU</p>
+                            </div>
+                        </div>
                     </div>
-
-
-                    <!-- TEXT -->
-                    <div class="col-sm-6 d-none d-sm-block col-md-4">
-                        <h2 class="selected-work">DEVELOP</h2>
-                    </div>
-
-
-                    <!-- IMAGE -->
-                    <div>
-                        <img class="tiny-img" src="images/head.jpg">
-                    </div>
-
-
-                    <!-- TEXT -->
-                    <div class="col-sm-6 d-none d-sm-block col-md-4">
-                        <h2 class="selected-work">SUPPORT</h2>
-                    </div>
-
-
-                    <!-- IMAGE -->
-                    <div>
-                        <img class="tiny-img" src="images/ipad.jpg">
-                    </div>
-
-                    <!-- TEXT -->
-                    <div class="col-sm-6 d-none d-sm-none d-md-block col-md-4">
-                        <h2 class="selected-work">TWITTER</h2>
-                    </div>
-
 
                 </div>
 
@@ -257,20 +278,33 @@
                     <div>
                         <img class="ipad img-thumbnail mx-auto" src="images/man.jpg">
                     </div>
-                    <div class="xsm-row mx-auto">
-                        <h4 class="abel d-inline-block feature ">FEATURED PROJECT</h4>
-                        <div class="sm-cirlce red-circle d-inline-block">
-                            <p class="anton">D</p>
+                    <div class="row ">
+                        <div class="col-sm-6">
+                            <h4 class="abel  mini-feature ">FEATURED PROJECT</h4>
                         </div>
-                        <div class="sm-cirlce orange-circle d-inline-block">
-                            <p class="anton">D</p>
+                        <div class="col-sm-6">
+                            <div class="circ-div d-inline-block">
+                                <div class=" circ  red-circle ">
+                                    <p class="anton-flex">D</p>
+                                </div>
+                            </div>
+                            <div class="circ-div d-inline-block ">
+                                <div class=" circ  orange-circle ">
+                                    <p class="anton-flex">D</p>
+                                </div>
+                            </div>
+                            <div class="circ-div d-inline-block ">
+                                <div class=" circ  green-circle ">
+                                    <p class="anton-flex">D</p>
+                                </div>
+                            </div>
+                            <div class="circ-div d-inline-block ">
+                                <div class=" circ  blue-circle ">
+                                    <p class="anton-flex">D</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="sm-cirlce green-circle d-inline-block">
-                            <p class="anton">S</p>
-                        </div>
-                        <div class="sm-cirlce blue-circle d-inline-block">
-                            <p class="anton">H</p>
-                        </div>
+
                     </div>
                 </div>
 
@@ -280,42 +314,42 @@
                     <div>
                         <img class="ipad img-thumbnail mx-auto " src="images/security.jpg">
                     </div>
-                    <div class="xsm-row mx-auto">
-                        <h4 class="abel d-inline-block feature ">FEATURED PROJECT</h4>
-                        <div class="sm-cirlce red-circle d-inline-block">
-                            <p class="anton">D</p>
+                    <div class="row ">
+                        <div class="col-sm-6">
+                            <h4 class="abel  mini-feature ">FEATURED PROJECT</h4>
                         </div>
-                        <div class="sm-cirlce orange-circle d-inline-block">
-                            <p class="anton">D</p>
+                        <div class="col-sm-6">
+                            <div class="circ-div d-inline-block">
+                                <div class=" circ  red-circle ">
+                                    <p class="anton-flex">D</p>
+                                </div>
+                            </div>
+                            <div class="circ-div d-inline-block ">
+                                <div class=" circ  orange-circle ">
+                                    <p class="anton-flex">D</p>
+                                </div>
+                            </div>
+                            <div class="circ-div d-inline-block ">
+                                <div class=" circ  green-circle ">
+                                    <p class="anton-flex">D</p>
+                                </div>
+                            </div>
+                            <div class="circ-div d-inline-block ">
+                                <div class=" circ  blue-circle ">
+                                    <p class="anton-flex">D</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="sm-cirlce green-circle d-inline-block">
-                            <p class="anton">S</p>
-                        </div>
-                        <div class="sm-cirlce blue-circle d-inline-block">
-                            <p class="anton">H</p>
-                        </div>
+
                     </div>
                 </div>
 
                 <!-- TWITTER -->
                 <div class="col-sm-6 d-none d-sm-none d-md-block col-md-4">
+
                     <div>
-                        <img class="ipad img-thumbnail mx-auto p-3" src="images/apple-ipad.jpg">
-                    </div>
-                    <div class="xsm-row mx-auto">
-                        <h4 class="abel d-inline-block feature ">TWITTER</h4>
-                        <div class="sm-cirlce red-circle d-inline-block">
-                            <p class="anton">D</p>
-                        </div>
-                        <div class="sm-cirlce orange-circle d-inline-block">
-                            <p class="anton">D</p>
-                        </div>
-                        <div class="sm-cirlce green-circle d-inline-block">
-                            <p class="anton">S</p>
-                        </div>
-                        <div class="sm-cirlce blue-circle d-inline-block">
-                            <p class="anton">H</p>
-                        </div>
+                        <p class="abel pb-1" id="unaligntext">LAST TWEET</p>
+                        <p class="abel text-justify" id="unaligntext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eius eos.</p>
                     </div>
                 </div>
 
