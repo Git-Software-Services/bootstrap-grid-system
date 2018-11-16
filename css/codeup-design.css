@@ -1,7 +1,7 @@
 .logo {
     width: 40%;
-    margin-top: -2em;
-    margin-bottom: -2em;
+    margin-top: -2.6em;
+    margin-bottom: -2.6em;
 }
 
 .bg-color {
@@ -99,16 +99,19 @@ span {
 .sm-cirlce p {
     /*font-size: 1.5em;*/
     /*padding-top: 2px;*/
-    line-height: 1.5em;
-    font-size: 2.7vw;
+    line-height: 2.1em;
+    font-size: 1.2em;
 }
 .feature {
     padding-right: 3em;
-    font-size: 3.5vw;
+    /*font-size: 3.5vw;*/
 }
 .xsm-row {
     margin-top: 15px;
     padding-bottom: 100px;
+}
+.xs-row h4 {
+    line-height: 1em;
 }
 .small-nav > img  {
     margin-top: -2em;
@@ -119,6 +122,10 @@ span {
     width: 160%;
     height:auto;
     padding-right: 10px;
+}
+.twitter-img {
+    max-width: 30px;
+    height: auto;
 }
 
 
@@ -144,7 +151,7 @@ span {
     margin-bottom: -4.5em;
 }
 
-#unaligntext {
+.unaligntext {
     text-align: initial;
 }
 
