@@ -16,11 +16,15 @@
 li {
     display: inline-block;
     font-size: 1.2em;
-
-
 }
 h1 {
     font-size: 3.5em;
+}
+h5 {
+    font-size: 1em;
+}
+nav.white-nav-space h1 {
+    font-size: 2.5em;
 }
 .med-h1 {
     padding-top: 5em;
@@ -163,7 +167,7 @@ span {
     /*height: 20%;*/
 }
 .white-nav-space {
-    height: 65px;
+    height: 55px;
 
 }
 .med-feature {
